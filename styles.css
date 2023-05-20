@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    background: black;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFAF7B, #D76D77, #3A1C71);
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#container {
+    padding: 20px 10px;
+}
+
+#profession {
+    padding: 10px 15px;
+    border-radius: 4px;
+    outline: none;
+    border : 1px solid white;
+    background-color: black;
+    color: white;
+}
+
+
+#data {
+    padding: 10px 0px;
+}
+.card {
+    margin-bottom: 15px;
+    padding: 10px 10px;
+    background-color: black;
+    color: white;
+    border-radius: 6px;
+    border: 1px solid white;
+    width: 35%;
+
+}
+.card>span {
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px 30px;
+    cursor: pointer;
+    color: #3A1C71;
+    outline: none;
+    border: none;
+}
+
+button:hover {
+    background-color: #3A1C71;
+    color: #fff;
+    outline: 1px solid #fff;
+
+}
+
+.input-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-container-item {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+input {
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border : 1px solid white;
+}
+
+.hide {
+    display: none;
+}
+
+.highlight {
+    font-weight: bold;
+}
+h2{
+    font-weight: normal;
+}
